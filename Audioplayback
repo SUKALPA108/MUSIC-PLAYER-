@@ -1,0 +1,29 @@
+// AudioPlayer.js
+import React, { useState } from 'react';
+
+const AudioPlayer = () => {
+  const [currentTrack, setCurrentTrack] = useState(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handlePlay = () => {
+    // Code to play audio
+  };
+
+  const handlePause = () => {
+    // Code to pause audio
+  };
+
+  const handleNextTrack = () => {
+    // Code to play the next track in the playlist
+  };
+
+  // Code for rendering the audio player
+
+  return (
+    <div>
+      {/* Render HTML audio player */}
+    </div>
+  );
+};
+
+export default AudioPlayer;
