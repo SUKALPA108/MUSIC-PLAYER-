@@ -1,0 +1,19 @@
+// App.js
+import React from 'react';
+import UploadForm from './UploadForm';
+import Playlist from './Playlist';
+import NowPlaying from './NowPlaying';
+import AudioPlayer from './AudioPlayer';
+
+const App = () => {
+  return (
+    <div>
+      <UploadForm />
+      <Playlist />
+      <NowPlaying />
+      <AudioPlayer />
+    </div>
+  );
+};
+
+export default App;
