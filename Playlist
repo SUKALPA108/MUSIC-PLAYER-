@@ -1,0 +1,8 @@
+// Playlist.js
+import React from 'react';
+
+const Playlist = () => {
+  // Code for displaying the playlist
+};
+
+export default Playlist;
