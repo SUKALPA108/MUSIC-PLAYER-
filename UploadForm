@@ -1,0 +1,8 @@
+// UploadForm.js
+import React from 'react';
+
+const UploadForm = () => {
+  // Code for uploading audio files
+};
+
+export default UploadForm;
